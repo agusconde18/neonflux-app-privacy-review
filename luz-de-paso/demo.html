@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luz de Paso · Demostración de Android</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; background: #101619; color: #f5f0e7; font: 1rem/1.58 system-ui, sans-serif; }
+    main { max-width: 43rem; margin: auto; padding: 2rem 1.5rem; }
+    video { display: block; width: min(100%, 23rem); max-height: 80vh; margin-top: 1.2rem; background: #0b1012; }
+    a { color: #ffd88f; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Vigilancia de carga en Android</h1>
+    <p>Demostración en emulador. La desconexión y el flash se simulan. La notificación y el control Detener pertenecen a la app.</p>
+    <video controls playsinline preload="metadata" src="demo-servicio.mp4" aria-label="Activación y detención del servicio de vigilancia"></video>
+    <ol>
+      <li>El usuario toca Activar vigilancia, con alimentación conectada.</li>
+      <li>La notificación muestra Vigilancia activa y permite detenerla.</li>
+      <li>Al cortar la carga, cambia a Linterna encendida. Al reconectar, vuelve a quedar armada.</li>
+      <li>El usuario toca Detener y la notificación desaparece.</li>
+    </ol>
+    <p><a href="./">Ayuda y privacidad</a></p>
+  </main>
+</body>
+</html>
