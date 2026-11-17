@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ayuda y política de privacidad de Luz de Paso para Android y iPhone.">
+  <title>Luz de Paso · Ayuda y privacidad</title>
+  <style>
+    :root { color-scheme: dark; --fondo: #101619; --texto: #f5f0e7; --neutro: #bac6c6; --luz: #ffd88f; --borde: #354548; }
+    body { margin: 0; background: var(--fondo); color: var(--texto);
+      font: 1.075rem/1.62 system-ui, sans-serif; }
+    main { max-width: 42rem; margin: auto; padding: 3rem 1.5rem; }
+    h1 { font-size: clamp(2.25rem, 7vw, 3.5rem); line-height: 1.06; letter-spacing: -.04em; margin: .3rem 0; }
+    h2 { line-height: 1.2; margin-top: 2.3rem; }
+    h3 { margin-bottom: .2rem; }
+    p { margin-top: .35rem; }
+    a { color: var(--luz); }
+    nav { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 1.2rem; }
+    header, section { border-bottom: 1px solid var(--borde); padding-bottom: 1.45rem; }
+    time, .muted { color: var(--neutro); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Luz de Paso</h1>
+      <p class="muted">Luz automática si se corta la carga.</p>
+      <nav aria-label="En esta página">
+        <a href="#ayuda">Ayuda</a><a href="#privacidad">Privacidad</a><a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <section id="ayuda">
+      <h2>Cómo activarla</h2>
+      <h3>Android</h3>
+      <p>Conectá el teléfono, tocá <strong>Activar vigilancia</strong> y permití la notificación. Cuando veas «Vigilancia activa», podés apagar la pantalla. La notificación tiene un botón para detenerla. Si vuelve la carga, el flash se apaga y el teléfono queda listo para detectar otro corte.</p>
+      <h3>iPhone</h3>
+      <p>Conectá el iPhone y elegí <strong>Activar modo noche</strong>. Dejá la app visible. Podés atenuar la pantalla mientras vigila. Para usar la linterna automática con el iPhone bloqueado, seguí la guía incluida para configurar una automatización personal de Atajos y probala con el equipo bloqueado.</p>
+      <h3>Si la luz no enciende</h3>
+      <p>Usá <strong>Probar luz</strong> con el equipo desbloqueado. Verificá que tenga flash y cerrá la cámara si está en uso. El brillo configurable depende del equipo. En Android, verificá que la notificación de vigilancia siga activa.</p>
+    </section>
+    <section id="privacidad">
+      <h2>Política de privacidad</h2>
+      <p><time datetime="2026-11-17">17 de noviembre de 2026</time></p>
+      <p>Luz de Paso funciona sin cuenta y sin conexión a internet. La app no recopila ni comparte datos con el desarrollador ni con terceros. Tampoco incluye publicidad, seguimiento ni herramientas de análisis.</p>
+      <p>Consulta el estado de alimentación para detectar la desconexión y usa el flash sin capturar fotos ni video. Guarda tus preferencias y la hora del último corte en el dispositivo. En Android, la notificación indica el estado de vigilancia y ofrece un control para detenerla. El sistema puede incluir preferencias locales de iPhone en sus propias copias de seguridad.</p>
+      <p>Para borrar los datos locales, desinstalá la app o, en Android, borrá su almacenamiento desde Ajustes. Si configuraste una automatización en Atajos, podés editarla o borrarla desde Atajos.</p>
+    </section>
+    <footer id="contacto">
+      <h2>Contacto</h2>
+      <p>Para consultas de soporte o privacidad escribí a <a href="mailto:argentina.developers@gmail.com">argentina.developers@gmail.com</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
